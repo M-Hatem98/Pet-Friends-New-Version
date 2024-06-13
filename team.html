@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>petfriendsgroup</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo - Copy.png"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@3.0.9/dist/css/splide.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img src="assets/img/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+      <!--? Header Start -->
+      <div class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-light px-1">
+          <a class="navbar-brand d-none d-lg-block p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <a class="navbar-brand d-lg-none p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <ul class="pt-1 row d-lg-none mobile-btn text-center d-sm-flex">
+            <div class="row">
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="location.html"
+                  class="nav-link header-btn"
+                  style="background-color: #b67b6d"
+                  >Branches</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="pettaxi.html"
+                  class="nav-link header-btn"
+                  style="background-color: #75b09a"
+                  >Pet Taxi</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="shop-soon.html"
+                  class="nav-link header-btn"
+                  style="background-color: #a71d17"
+                  >Pet Shop</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="Boarding&Training.html"
+                  class="nav-link header-btn"
+                  style="background-color: #282552"
+                  >Boarding & Training</a
+                >
+              </li>
+            </div>
+          </ul>
+          <button
+            class="navbar-toggler btn-sm p-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div
+              class="nav-holder ml-5 w-100 d-flex justify-content-between align-items-center"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="services.html"
+                      >All Services</a
+                    >
+                    <a class="dropdown-item nav-link" href="emergency-pet.html"
+                      >Emergency</a
+                    >
+                    <a class="dropdown-item nav-link" href="petdentalcare.html"
+                      >Dental</a
+                    >
+                    <a class="dropdown-item nav-link" href="grooming.html"
+                      >Grooming</a
+                    >
+                    <a class="dropdown-item nav-link" href="spay-newter.html"
+                      >Spay & Neuter</a
+                    >
+                    <a class="dropdown-item nav-link" href="ophthalmology.html"
+                      >Ophthalmology</a
+                    >
+                    <a
+                      class="dropdown-item nav-link"
+                      href="pet-vaccinations.html"
+                      >Vaccinations</a
+                    >
+                    <a class="dropdown-item nav-link" href="price.html"
+                      >Price</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown2"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >About US</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown2MenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="about.html"
+                      >About</a
+                    >
+                    <a class="dropdown-item nav-link" href="gallery.html"
+                      >Gallery</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="packages.html">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Our Team</a>
+                </li>
+              </ul>
+              <ul class="d-none d-lg-flex">
+                <li class="nav-item p-0">
+                  <a
+                    href="location.html"
+                    class="nav-link header-btn"
+                    style="background-color: #b67b6d"
+                    >Branches</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="pettaxi.html"
+                    class="nav-link header-btn"
+                    style="background-color: #75b09a"
+                    >Pet Taxi</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="shop-soon.html"
+                    class="nav-link header-btn"
+                    style="background-color: #a71d17"
+                    >Pet Shop</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="Boarding&Training.html"
+                    class="nav-link header-btn"
+                    style="background-color: #282552"
+                    >Boarding & Training</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header End -->
+    </header>
+    <main>
+      <div class="header mt-3">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Doctors
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="team-work">
+        <div class="container">
+            <div class="pagetitle mb-5">
+                <div class="container">
+                  <h1>OUR TEAM</h1>
+                </div>
+              </div>
+            <div class="row mb-5">
+                <div class="box col-12 col-md-6 col-lg-4">
+                    <div class="a-box">
+                        <div class="img-container">
+                          <div class="img-inner">
+                            <div class="inner-skew">
+                              <img src="assets/img/team/7.1.png">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-container">
+                          <h3>DR Ragab Elhofy</h3>
+                          <div>
+                            Owner and manager
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="box col-12 col-md-6 col-lg-4">
+                <div class="a-box">
+                    <div class="img-container">
+                      <div class="img-inner">
+                        <div class="inner-skew">
+                          <img src="assets/img/team/8 - Copy.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-container">
+                      <h3>DR Sara</h3>
+                      <div>
+                        Internal medicine specialist
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="box col-12 col-md-6 col-lg-4">
+            <div class="a-box">
+                <div class="img-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="assets/img/team/3.jpg">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>DR Manar</h3>
+                  <div>
+                    Soft Tissue Surgeon
+                </div>
+              </div>
+        </div>
+    </div>
+       
+                <div class="box col-12 col-md-6 col-lg-4">
+                    <div class="a-box">
+                        <div class="img-container">
+                          <div class="img-inner">
+                            <div class="inner-skew">
+                              <img src="assets/img/team/4 - Copy.jpg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-container">
+                          <h3>DR Fawaz</h3>
+                          <div>
+                            Soft Tissue Surgeon
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="box col-12 col-md-6 col-lg-4">
+                <div class="a-box">
+                    <div class="img-container">
+                      <div class="img-inner">
+                        <div class="inner-skew">
+                          <img src="assets/img/team/5 - Copy.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-container">
+                      <h3>DR Mohamed</h3>
+                      <div>
+                        Diagnostic imaging
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="box col-12 col-md-6 col-lg-4">
+            <div class="a-box">
+                <div class="img-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="assets/img/team/6.jpg">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>DR Abd elaziz</h3>
+                  <div>
+                    orthopaedic surgeon
+                </div>
+              </div>
+        </div>
+    </div>
+  
+                <div class="box col-12 col-md-6 col-lg-4">
+                    <div class="a-box">
+                        <div class="img-container">
+                          <div class="img-inner">
+                            <div class="inner-skew">
+                              <img src="assets/img/team/10.jpg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-container">
+                          <h3>DR Fathi</h3>
+                          <div>
+                            Soft Tissue Surgeon
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="box col-12 col-md-6 col-lg-4">
+                <div class="a-box">
+                    <div class="img-container">
+                      <div class="img-inner">
+                        <div class="inner-skew">
+                          <img src="assets/img/team/1.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-container">
+                      <h3>DR Samer</h3>
+                      <div>
+                        Internal medicine specialist
+                    </div>
+                  </div>
+            </div>
+        </div>
+      
+                <div class="box col-12 col-md-6 col-lg-4">
+                    <div class="a-box">
+                        <div class="img-container">
+                          <div class="img-inner">
+                            <div class="inner-skew">
+                              <img src="assets/img/team/11.jpg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-container">
+                          <h3>DR Mohamed</h3>
+                          <div>
+                            Dermatology specialist
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="box col-12 col-md-6 col-lg-4">
+                <div class="a-box">
+                    <div class="img-container">
+                      <div class="img-inner">
+                        <div class="inner-skew">
+                          <img src="assets/img/team/12.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-container">
+                      <h3>DR Ahmed</h3>
+                      <div>
+                        Dermatology specialist
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="box col-12 col-md-6 col-lg-4">
+            <div class="a-box">
+                <div class="img-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="assets/img/team/13.jpg">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>DR Nour</h3>
+                  <div>
+                    Ophthalmology specialist
+                </div>
+              </div>
+        </div>
+    </div>
+        </div>
+      </div>
+      </div>
+      <section class="faqs">
+        <div class="section-title py-5 text-center">
+          <h2>FAQ</h2>
+        </div>
+        <div class="container">
+          <div id="accordion">
+
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
+                  <i class="fas iconat fa-plus-circle mr-2"></i>
+                  How do I prepare for my first vet appointment?
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse hide" data-parent="#accordion">
+                <div class="card-body">
+                  As a pet owner, you’ll want to ensure your pet’s vaccinations are up-to-date and that they have no health conditions. You should also bring along a list of all medications, supplements, and vitamins that your pet is taking. If possible, bring a copy of their medical records and questions about the appointment.
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                  <i class="fas iconat fa-plus-circle mr-2"></i>
+                  When should you visit the animal specialist clinic Dubai?
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  As a new pet owner, it can be hard to know when to make your first visit. If your dog is a puppy and has just been adopted, or if he’s older than three months, then you should probably call ahead and schedule an appointment at that time. If he gets sick while still young, it may take some time before his symptoms are severe enough for him to need a professional veterinary doctor. However, if there’s been an injury sustained during playtime with another animal (or human), this could mean that things have progressed further than expected. In both cases above: Your vet doctor for pets would probably recommend seeing them as soon as possible—but not necessarily right away!
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                  <i class="fas iconat fa-plus-circle mr-2"></i>
+                  What does a Veterinary Specialist Do?
+                </a>
+              </div>
+              <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  A veterinary specialist is a veterinarian who has undergone additional training in a specific area of veterinary medicine and passed a certification examination. They work alongside your primary veterinarian to diagnose and treat complex medical conditions, offering advanced knowledge and skills for the best possible care of your pet.                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                  <i class="fas iconat fa-plus-circle mr-2"></i>
+                  Which Doctor Takes Care of Dogs?
+                </a>
+              </div>
+              <div id="collapseFive" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  A veterinarian, specifically trained in the care of dogs, is the doctor you should visit for your canine companion. They provide a wide range of services including vaccinations, wellness exams, treatment of illnesses and injuries, and guidance on nutrition and behavior to ensure your dog stays happy and healthy.                </div>
+              </div>
+            </div>         
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Footer Start-->
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="single-footer-caption mb-30">
+                  <!-- logo -->
+                  <div class="footer-logo text-center mb-3">
+                    <a href="index.html"
+                      ><img
+                        src="assets/img/logo.png"
+                        style="width: 100px"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-tittle">
+                    <div class="footer-pera">
+                      <p>
+                        Welcome to the largest chain of veterinary clinics in
+                        the United Arab Emirates
+                      </p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="footer-social">
+                    <a href="https://www.instagram.com/pet_friends_vet_clinic" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                    <a href="https://www.instagram.com/aljaddaf_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alraha_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/al_khalidiya_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alfurjanvetclinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="team.html"> Our Team</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Services</h4>
+                  <ul>
+                    <li><a href="emergency-pet.html">Emergency</a></li>
+                    <li><a href="petdentalcare.html">Dental</a></li>
+                    <li><a href="grooming.html">Grooming</a></li>
+                    <li><a href="spay-newter.html">Spay & neuter</a></li>
+                    <li><a href="ophthalmology.html">Ophthalmology</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Get in Touch</h4>
+                  <ul>
+                    <li>
+                      <a href="tel:+971527394636"
+                        ><i class="fa-solid fa-mobile-screen-button"></i>
+                        +971527394636</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:pfrindsvet@gmail.com"
+                        ><i class="fa-solid fa-paper-plane"></i>
+                        pfrindsvet@gmail.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-solid fa-location-dot"></i> Sobha Daffodil
+                        - Circle - Jumeirah Village - Dubai - United Arab
+                        Emirates</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="footer-border">
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-12">
+                <div class="footer-copy-right text-center">
+                  <p>
+                    Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved |
+                    <a href="index.html" target="_blank">Pets Friends</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top">
+      <a title="Go to Top" href="#"> <i class="fa-solid fa-paw"></i></a>
+    </div>
+
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+    <script>
+        var accordionItems = document.querySelectorAll('.card-link');
+
+accordionItems.forEach(function(item) {
+  item.addEventListener('click', async function() {
+    accordionItems.forEach(function(subitem) {
+          var subicon = subitem.querySelector('.iconat');
+
+    subicon.classList.remove('fa-circle-minus');
+        subicon.classList.add('fa-circle-plus');
+});
+
+    var icon = item.querySelector('.iconat');
+        if(!item.classList.contains('collapsed')){
+          icon.classList.remove('fa-circle-minus');
+          icon.classList.add('fa-circle-plus');
+        }else{
+          icon.classList.add('fa-circle-minus');
+        icon.classList.remove('fa-circle-plus');
+        }
+  });
+});
+    </script>
+  </body>
+</html>

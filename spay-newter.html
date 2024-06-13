@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>petfriendsgroup</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo - Copy.png"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@3.0.9/dist/css/splide.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img src="assets/img/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+      <!--? Header Start -->
+      <div class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-light px-1">
+          <a class="navbar-brand d-none d-lg-block p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <a class="navbar-brand d-lg-none p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <ul class="pt-1 row d-lg-none mobile-btn text-center d-sm-flex">
+            <div class="row">
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="location.html"
+                  class="nav-link header-btn"
+                  style="background-color: #b67b6d"
+                  >Branches</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="pettaxi.html"
+                  class="nav-link header-btn"
+                  style="background-color: #75b09a"
+                  >Pet Taxi</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="shop-soon.html"
+                  class="nav-link header-btn"
+                  style="background-color: #a71d17"
+                  >Pet Shop</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="Boarding&Training.html"
+                  class="nav-link header-btn"
+                  style="background-color: #282552"
+                  >Boarding & Training</a
+                >
+              </li>
+            </div>
+          </ul>
+          <button
+            class="navbar-toggler btn-sm p-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div
+              class="nav-holder ml-5 w-100 d-flex justify-content-between align-items-center"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="services.html"
+                      >All Services</a
+                    >
+                    <a class="dropdown-item nav-link" href="emergency-pet.html"
+                      >Emergency</a
+                    >
+                    <a class="dropdown-item nav-link" href="petdentalcare.html"
+                      >Dental</a
+                    >
+                    <a class="dropdown-item nav-link" href="grooming.html"
+                      >Grooming</a
+                    >
+                    <a class="dropdown-item nav-link" href="spay-newter.html"
+                      >Spay & Neuter</a
+                    >
+                    <a class="dropdown-item nav-link" href="ophthalmology.html"
+                      >Ophthalmology</a
+                    >
+                    <a
+                      class="dropdown-item nav-link"
+                      href="pet-vaccinations.html"
+                      >Vaccinations</a
+                    >
+                    <a class="dropdown-item nav-link" href="price.html"
+                      >Price</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown2"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >About US</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown2MenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="about.html"
+                      >About</a
+                    >
+                    <a class="dropdown-item nav-link" href="gallery.html"
+                      >Gallery</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="packages.html">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Our Team</a>
+                </li>
+              </ul>
+              <ul class="d-none d-lg-flex">
+                <li class="nav-item p-0">
+                  <a
+                    href="location.html"
+                    class="nav-link header-btn"
+                    style="background-color: #b67b6d"
+                    >Branches</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="pettaxi.html"
+                    class="nav-link header-btn"
+                    style="background-color: #75b09a"
+                    >Pet Taxi</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="shop-soon.html"
+                    class="nav-link header-btn"
+                    style="background-color: #a71d17"
+                    >Pet Shop</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="Boarding&Training.html"
+                    class="nav-link header-btn"
+                    style="background-color: #282552"
+                    >Boarding & Training</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header End -->
+    </header>
+    <main>
+        <div class="header mt-3">
+            <div class="container p-0">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="services.html">Services</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">SPAY & NEUTER</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="subservices subservicespay">
+                <div class="banner mb-5">
+                    <img src="assets/img/services/18.svg" alt="">
+                </div>
+            </div>
+          </div>
+          <div class="serv-content p-3">
+          <div class="pagetitle my-5">
+            <div class="container-fluid">
+              <h1>SPAY & NEUTER</h1>
+            </div>
+          </div>
+          <div class="container">
+            <div class="content">
+                <h3>We are your trusted partner in caring for your pet's health.</h3>
+                <p>At Pet Friends, we understand the importance of your pet's health and well-being. Our clinic takes pride in offering specialized sterilization and neutering services, designed to provide the best care for your beloved pets. With a focus on safety, comfort, and recovery, our experienced veterinary team uses the latest technologies and compassionate care. By choosing Pet Friends for your pet's sterilization and neutering needs, you are ensuring a healthier and happier life for your furry family members. Trust us to be your partner in owning a responsible pet.</p>
+                <h3>What is the sterilization process in pets?</h3>
+                <p>Sterilization is a process used by veterinarians to permanently prevent reproduction in pets. Sterilization can be done through surgical procedures, or it can be done using medications that are injected into the animal's bloodstream. In both cases, sterilization prevents future pregnancies and the birth of offspring in your pet's body. This can help protect you and others living with your pet from unwanted litters.</p>
+                <p>If you have a dog or cat with young puppies or kittens at home, they should be sterilized before they reach sexual maturity, so they don't have more offspring!</p>
+                <h3>Sterilizing pets has many benefits for their health.</h3>
+                <h3>Spaying or neutering your pet will not cause weight gain.</h3>
+                <p>Pets, just like humans, can become overweight due to similar reasons. Lack of exercise and excessive eating are the main culprits. To keep a pet in good shape and health, it is important to ensure they get enough physical activity and eat a balanced diet in appropriate portions.</p>
+                
+                <h3>Prolonging the life of your female pet can be achieved by spaying her.</h3>
+                <p>By spaying your kitten between the ages of 3 and 6 months, you can greatly reduce her chances of developing mammary cancer in adulthood. Additionally, spaying your cat provides protection against various uterine and ovarian diseases and cancers.</p>
+                <p>According to a study involving 460,000 cats and 2.2 million dogs, spayed cats live 39% longer, while spayed dogs live 23% longer compared to their unaltered counterparts. Similar to cats, spayed dogs also have a decreased risk of developing certain cancers and pyometra, which is a potentially fatal uterine infection.</p>
+                
+                <h3>Sterilized animals feel happy at home.</h3>
+                <p>One of the reasons that sterilized cats live longer is that they are less likely to leave the house and fight with other male cats. Sterilization inhibits the production of testosterone. This hormone is responsible for aggression.</p>
+                <p>The same applies to sterilized dogs. They are less likely to wander in search of a mate and be hit by a car or fight with another dog during that time.</p>
+                
+                <h3>The impact of pet sterilization on behavior.</h3>
+                <h3>Spayed animals do not go into heat.</h3>
+                <p>When your female pet is spayed, she will not experience estrus. Female cats usually go into heat for about four to five days every three weeks during the breeding season. They may yowl and urinate more often to attract a mate, sometimes even inside the house.</p>
+                
+                <h3>A male dog refuses to leave the house.</h3>
+                <p>Your male dog is less likely to wander away from home. A male dog that has not been neutered will go to great lengths to find a mate, even coming up with clever ways to escape. Allowing him to roam freely puts him at risk of getting hurt in traffic or getting into fights with other animals.</p>
+                
+                <h3>Pets that have been neutered tend to exhibit better behavior.</h3>
+                <p>Neutering your male pet can lead to improved behavior. Unaltered dogs and cats tend to spray pungent urine around the house to establish their territory. However, after undergoing the neutering procedure, your dog is less likely to exhibit mounting behavior towards other animals, humans, or inanimate objects. Additionally, early spaying and neutering can help prevent certain aggression problems.</p>
+                
+                <h3>Сat Sterilization</h3>
+                <p>Cat sterilization is a crucial aspect of responsible pet ownership, particularly in Dubai where the population of feral and domestic cats is significant. This process, which includes both neutering (for male cats) and spaying (for female cats), helps in controlling the cat population and reducing the number of homeless cats. In Dubai, cat neutering and cat castration refer to the surgical removal of a male cat’s testicles, which not only prevents unwanted breeding but also can lead to a reduction in aggressive behavior and the risk of certain diseases. Similarly, cat spaying, the surgical removal of a female cat’s reproductive organs, not only prevents unwanted litters but also reduces the risk of ovarian and mammary gland cancers. These procedures are widely advocated by veterinarians and animal welfare organizations in Dubai to ensure the health and well-being of cats, as well as to maintain a balanced urban animal population.</p>
+                
+                <h3>Dog Sterilization</h3>
+                <p>Sterilizing dogs is a crucial step in responsible pet ownership, especially in a bustling city like Dubai. This process includes neutering for male dogs and spaying for females. Neutering involves removing a male dog's testicles, which helps control breeding, reduce aggression, and prevent certain health issues. In Dubai, where there are both pet dogs and strays, neutering is highly recommended to manage the population and promote animal welfare. Spaying, on the other hand, removes a female dog's reproductive organs to prevent unwanted litters and reduce the risk of diseases like mammary cancer. These sterilization procedures are strongly encouraged in Dubai to ensure the health and happiness of dogs, as well as maintain a balanced and compassionate urban animal community.</p>
+                
+                <h3>FAQs</h3>
+                <h4>How much does it cost to neuter a cat?</h4>
+                <p>Our clinic provides affordable pet sterilization services. The price for neutering (castration) a dog starts at 1600 AED, excluding VAT. This procedure is important for managing the dog population and enhancing your pet's health. Cat castration is also offered, with prices starting at 870 AED, excluding VAT. Spaying services for dogs start at 1800 AED and for cats at 1120 AED, both excluding VAT. These procedures are crucial for preventing unwanted litters and promoting the overall health of your pets.</p>
+                
+                <h4>How long does the procedure take?</h4>
+                <p>The veterinarian will administer a local anesthetic to your pet's skin before starting the procedure. This injection is given to numb the area and typically takes around 30 minutes to complete. The procedure itself is performed under general anesthesia, ensuring that your pet does not feel any pain during or after the surgery.</p>
+                <p>The entire sterilization process is carried out in a sterile environment to prevent any bacteria from contaminating the equipment used. This is particularly crucial for pets with allergies or other conditions that could lead to infections if proper precautions are not taken during their visit to our clinic!</p>
+                
+                <h4>Is there any associated pain?</h4>
+                <p>There is no need to worry about the severity of the pain. It is usually mild and can be treated with pain relievers such as ibuprofen or paracetamol.</p>
+                <p>If you are facing a large needle (vein), you may feel some discomfort as the needle enters your pet's body, but this should be temporary and will soon fade away.</p>
+                
+                <h4>Is it possible to have my pet spayed while she is pregnant?</h4>
+                <p>Yes, it is possible for your veterinarian to perform a sterilization procedure on your pet while she is pregnant. This can be done at any stage of pregnancy and does not require anesthesia. The risks associated with the procedure are similar to those for non-pregnant animals. If you are unsure whether to proceed with the surgery or wait until after your pet gives birth, it is best to consult with your veterinarian for their recommendations on the best course of action in this situation.</p>
+                
+                <h4>Does Sterilization Affect My Pet's Behavior?</h4>
+                <p>Surgical sterilization has a positive impact on reducing the number of offspring in a litter. This is beneficial for your pet as it ensures that more puppies and kittens are not born and separated from their mother. Moreover, spayed animals are less likely to wander and engage in fights with other animals or humans, which is particularly advantageous if you have young children at home.</p>
+                <p>In addition, spaying helps prevent certain behaviors in cats, such as roaming and fighting with other cats or dogs. The same applies to male dogs that have been neutered at an early stage in life; they are less prone to displaying aggression towards other individuals or pets.</p>
+                
+                <h4>Do Castrated Animals Live Longer</h4>
+                <p>Animals that undergo castration experience an extended lifespan. This is attributed to the decrease in testosterone levels, which can result in heightened aggression and an increased likelihood of prostate cancer. Furthermore, castration diminishes the chances of testicular cancer, mammary cancer, and uterine infection. Additionally, castrated males have a reduced risk of developing urinary tract infections (UTIs).</p>
+            </div>
+          </div>
+          </div>
+          <section class="bookbanner py-3">
+            <div class="container">
+              <div class="holder p-3 text-center">
+                <img src="assets/img/logo1.png" alt="" />
+                <h1 class="thin my-5">THE BIGGEST CHAIN OF</h1>
+                <h1 class="thin my-5"> 24/7 </h1>
+                <h1 class="thin my-5">VET CLINICS IN UAE</h1>
+                <button type="submit" class="btn mt-5">BOOK NOW</button>
+              </div>
+            </div>
+          </section>
+          <section class="services-slider my-5">
+            <div class="section-title py-5 text-center">
+              <h2>OTHER SERVICES</h2>
+            </div>
+            <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/25.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="pet-relocation.html">Pet Relocation</a></h3>
+                          <p class="text">
+                            Pet Friends, in partnership with Blue Sky Pet Relocation, proudly offers a comprehensive and personalized pet travel service tailored to the unique needs of each pet. Our collaborative approach combines Pet Friends’s veterinary expertise with Blue Sky’s relocation proficiency, ensuring a seamless transition for your beloved pet, whether you’re moving into or out of the UAE.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      
+                        <div class="card-box">
+                          <div class="img-box">
+                            <img src="assets/img/services/10.svg" alt="">
+                          </div>
+                          <div class="box">
+                            <h3><a href="wellness-exam.html">WELLNESS EXAMS</a></h3>
+                            <p class="text">
+                              We provide a complete evaluation of all organ functions during your pet’s visit to Pet Friends. We examine for the following conditions:
+                            </p>
+                          </div>
+                        </div>
+                    
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/6.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="pet-vaccinations.html">PET VACCINATIONS</a></h3>
+                          <p class="text">
+                            A pet needs all the affection and attention you can provide. Health care is a significant component of their daily routine.
+                            Vaccinating them promptly is vital to prevent numerous diseases and preserve their quality of life. You may vaccinate your pet in multiple locations, but it is not just about immunization. However, your pet requires love, attention, and a stress-free environment.
+                            </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/3.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="emergency-pet.html">EMERGENCY PET CARE</a></h3>
+                          <p class="text">
+                            Like emergency hospitals for people, Pet Friends provides 24 hour emergency pet care, any day of the year, even on holidays. If you think to yourself that your pet seems off and needs to see an emergency vet in Dubai for even the smallest health problem, we are here for you. If you sense that your pet is feeling even the slightest discomfort, we will be happy to have a look. Many vets aren’t open 24 hours, but we are here for you any time of the day all year round. 
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/18.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="spay-newter.html">SPAY & NEUTER</a></h3>
+                          <p class="text">
+                            Your Reliable Partner In Caring For Your Pet’s Health At Pet Friends, we understand the importance of your pet’s health and wellbeing. Our clinic is proud to offer specialized spay and neuter services, tailored to provide the best care for your beloved pets. With a focus on safety, comfort, and recovery, our experienced veterinary team employs the latest techniques and compassionate care. By choosing Pet Friends for your pet’s spay and neuter needs, you’re ensuring a healthier, happier life for your furry family members. Trust us to be your partner in responsible pet ownership.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/15.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="ophthalmology.html">OPHTHALMOLOGY</a></h3>
+                          <p class="text">
+                            At Pet Friends, we are proud to offer advanced ophthalmology services, dedicated to the eye health of your pets. Our state-of-the-art clinic is equipped with the latest technology and staffed by expert veterinarians specialized in pet eye care. From routine eye exams to complex surgeries, we provide comprehensive solutions for a range of eye conditions. Our approach combines cutting-edge techniques with compassionate care, ensuring the best possible outcomes for your pet’s vision. Trust Pet Friends to safeguard the eye health of your beloved animals, ensuring they enjoy a life full of clear and healthy vision.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/26.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="soft-tissue.html">SOFT TISSUE & ORTHOPEDICS</a></h3>
+                          <p class="text">
+                            Veterinary orthopaedics focuses on the treatment of musculoskeletal problems in pets. Joints, soft tissue, bones, muscle, ligaments, and tendons are all treated in our clinic. Orthopaedic disorders can be inherited or developed as a result of trauma, infections, or immune system problems. We provide a full variety of services at Modern Veterinary Hospital, from screening and diagnosis to medical treatment and rehabilitation. Our veterinary practice provides comprehensive orthopedics for dogs and cats, addressing a wide range of bone and joint conditions in your beloved pets.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/11.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="petdentalcare.html">PET DENTAL CARE</a></h3>
+                          <p class="text">
+                            DENTAL CARE FOR PETS If you have a pet, it’s essential to know that they can have dental problems. Your dog or cat may need a checkup from their veterinarian if they develop pain in the mouth or difficulty chewing or swallowing. Some signs of poor dental care include bad breath, gum disease, and tooth loss. Dental care for dogs and cats at home is essential to keep your pet happy and healthy.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/5.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="physiotherapy.html">PHYSIOTHERAPY</a></h3>
+                          <p class="text">
+                            We at Pet Friends Hospital provide veterinary physiotherapy and rehabilitation services that are created to help your pet recover as quickly as possible while averting injury. Whether your pet suffers from a traumatic injury, soft tissue/joint pain and/or conditions, neurological issues or needs pre/post-operative care, there are multiple treatment options available to ensure a full recovery.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/14.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="grooming.html">GROOMING</a></h3>
+                          <p class="text">
+                            Our pets are our life partners, and we want them to be happy and healthy. We know you don’t have the time to spend on your pet. That’s why we offer a convenient service that allows you to take care of their needs without having to go through the hassle of finding a new groomer or going for a walk. We’ll spend time getting to know your dog and cat and establishing a bond with them. We’ll discuss their likes, dislikes, favorite activities, and anything else you want to know about your furry friends.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/1.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="holisticmedicine.html">HOLISTIC MEDICINE</a></h3>
+                          <p class="text">
+                            Ten thousand years ago when humans first began domesticating animals, they fell sick in detention and also due to the ailments of old age. In order to heal them, animals were treated using natural herbs. Until quite recently, herbal medicine had been in practice to treat everything from gut disorders to itchy skin and ear infections.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/13.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="fooddelivery.html">FOOD DELIVERY</a></h3>
+                          <p class="text">
+                            FOOD DELIVERY Feeding your pets high quality food gives them a chance at a longer and healthier life. Like humans, pets also require essential vitamins, minerals, and nutrients. Poor nutrition can have serious effects like obesity, allergies, fur loss, and emaciation. Unbalanced diets, especially during your pets’ growing phase, can result in detrimental health consequences. Indicators for poor nutrition you should look out for include bad breath, hair loss, dull coat, body odor, unusual bowel movements, and dandruff. At the Pet Friends we understand that cats and dogs are more than just pets, they are family. That is why we are devoted to supplying even the most discerning pet owners with a wide assortment of curated pet food, including organic and veterinary prescription diets. We also stock environmentally-friendly toys, training tools, treats, and grooming products. We carefully monitor pet food recalls and supply only the highest-grade goods. You can be certain, if it’s Pet Friends approved, it’s safe!
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/21.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="pettaxi.html">PET TAXI</a></h3>
+                          <p class="text">
+                            In Dubai, our unique Pet Taxi service is tailored exclusively for our furry friends, ensuring they travel directly from and to our clinics with ease and comfort. Unlike typical taxis for humans, our vehicles are crafted specifically for pet transport, prioritizing their safety and well-being.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/12.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="dermatology.html">DERMATOLOGY</a></h3>
+                          <p class="text">
+                            Skin-related issues are not limited to human beings and can plague animals too. Much like their owners, pets should also have regular visits to the dermatologist. Like us, pets can suffer from skin rashes, allergies, infections and other related issues, which can be aggravated by the hot climatic conditions. Since animals spend most of their time walking and lying down on the ground, their skin is more prone to contracting infections and to being aggravated. Skin conditions in pets should not be taken lightly because of the possibility of the disease being transmissible to you. Pet health can be beneficial to the overall health of your household. Our veterinary dermatologists are highly trained in treating skin, hair, and ear conditions in pets.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/9.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="petwelfare.html">PET WELFARE</a></h3>
+                          <p class="text">
+                            The Pet Friends Hospital is the leading pet charity in Dubai, working closely with many animal welfare organizations to provide price concessions for TNR. Our goal is to ensure the health of cats and dogs in order to prevent them from accumulating on the streets with a large brood of neglected puppies and kittens.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/2.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="cardiology.html">CARDIOLOGY</a></h3>
+                          <p class="text">
+                            Pet Friends Clinic is renowned as the only cardiology-focused veterinary hospital in your region. When searching for a ‘veterinary cardiologist near me’, our facility stands out with its team of expert vet cardiologists. Specializing in pet cardiology, our veterinary cardiologists, proficient in both cat and dog cardiology, are committed to continual learning and applying the latest advancements in cardiology veterinary practice. They expertly handle a spectrum of heart conditions, ensuring your pets receive top-tier care in this specialized field.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/20.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="dogspaying.html">DOG SPAYING & NEUTERING</a></h3>
+                          <p class="text">
+                            At Pet Friends, we’re committed to enhancing the wellbeing of your canine companions through our specialized dog spay and neuter services. Understanding the profound impact these procedures can have on a dog’s life, we employ advanced techniques and compassionate care to ensure a safe and comfortable experience. Our experienced veterinary team is dedicated to providing top-tier care, reducing the risk of health issues, and promoting a more balanced behavior in dogs. Trust Pet Friends for your dog’s spay and neuter needs, and join us in our mission to foster healthier, happier lives for pets in our community.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/19.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="catspay.html">CAT SPAY AND NEUTER</a></h3>
+                          <p class="text">
+                            At Pet Friends, we specialize in providing top-notch cat spaying and neutering services, ensuring the best care for your feline companions. Recognizing the importance of these procedures for cat health and population control, we are dedicated to offering the most compassionate and effective solutions. Our expert team of vets is highly skilled in spaying cats, focusing on safety, comfort, and quick recovery. By choosing Pet Friends for spaying or neutering your cat, you not only contribute to their well-being but also support responsible pet ownership. Trust our experienced vets to provide the care and attention your cats deserve, making a positive impact on their overall health and happiness.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/23.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="dogvaccinations.html">DOG VACCINATIONS</a></h3>
+                          <p class="text">
+                            Vaccination is the process of immunization, which enhances an animal’s immune system and helps it fight diseases. Vaccines are made from killed or weakened forms of bacteria, viruses and other microorganisms that cause disease in dogs.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/22.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="catvaccinations.html">CAT VACCINATIONS</a></h3>
+                          <p class="text">
+                            You must know the pros and cons of vaccinating your cat if you’re a pet owner. While some cats can be healthy without vaccination, others may not survive without protection from diseases such as feline leukemia and feline immunodeficiency virus (FIV).
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/8.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="vetfordog.html">VET FOR DOG</a></h3>
+                          <p class="text">
+                            The Pet Friends Clinic is a full-service animal hospital that provides comprehensive veterinary care for dogs in Dubai. From preventative treatment and surgery to breeding consultations and nutritional guidance, we can satisfy your dog’s healthcare needs under one roof.
+                            The Pet Friends clinic has everything your dog needs to live a happy and healthy life. We want to be there for you every step of the way, from puppy vaccines, grooming, and emergency care to senior dog care. We offer best dog veterinary and dental care, including emergency care, orthopedic surgery, and in-house diagnostics. Our state-of-the-art facilities include digital X-ray capability and a comprehensive surgical suite for spaying, neutering, and other operations.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <!-- Card content goes here -->
+                      <div class="card-box">
+                        <div class="img-box">
+                          <img src="assets/img/services/7.svg" alt="">
+                        </div>
+                        <div class="box">
+                          <h3><a href="vetforcat.html">VET FOR CAT</a></h3>
+                          <p class="text">
+                            At Pet Friends, we solely provide veterinarian care, boarding, and grooming for cats. Pet Friends clinics are committed to delivering superior care for cats and their owners. Our skilled, caring veterinarian care staff has a lot of expertise and experience to address our feline patients’ special demands and health problems. We want to make every cat’s visit as tranquil and comfortable as possible.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Add more slides as needed -->
+                  </ul>
+                </div>
+              </div>
+              
+          </section>
+    </main>
+    <footer>
+      <!-- Footer Start-->
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="single-footer-caption mb-30">
+                  <!-- logo -->
+                  <div class="footer-logo text-center mb-3">
+                    <a href="index.html"
+                      ><img
+                        src="assets/img/logo.png"
+                        style="width: 100px"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-tittle">
+                    <div class="footer-pera">
+                      <p>
+                        Welcome to the largest chain of veterinary clinics in
+                        the United Arab Emirates
+                      </p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="footer-social">
+                    <a href="https://www.instagram.com/pet_friends_vet_clinic" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                    <a href="https://www.instagram.com/aljaddaf_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alraha_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/al_khalidiya_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alfurjanvetclinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="team.html"> Our Team</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Services</h4>
+                  <ul>
+                    <li><a href="emergency-pet.html">Emergency</a></li>
+                    <li><a href="petdentalcare.html">Dental</a></li>
+                    <li><a href="grooming.html">Grooming</a></li>
+                    <li><a href="spay-newter.html">Spay & neuter</a></li>
+                    <li><a href="ophthalmology.html">Ophthalmology</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Get in Touch</h4>
+                  <ul>
+                    <li>
+                      <a href="tel:+971527394636"
+                        ><i class="fa-solid fa-mobile-screen-button"></i>
+                        +971527394636</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:pfrindsvet@gmail.com"
+                        ><i class="fa-solid fa-paper-plane"></i>
+                        pfrindsvet@gmail.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-solid fa-location-dot"></i> Sobha Daffodil
+                        - Circle - Jumeirah Village - Dubai - United Arab
+                        Emirates</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="footer-border">
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-12">
+                <div class="footer-copy-right text-center">
+                  <p>
+                    Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved |
+                    <a href="index.html" target="_blank">Pets Friends</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top">
+      <a title="Go to Top" href="#"> <i class="fa-solid fa-paw"></i></a>
+    </div>
+
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function () {
+  new Splide('.splide', {
+    type: "loop",
+          drag: "free",
+          autoplay: true,
+          autoScroll: {
+            speed: 1,
+          },
+          perPage: 4, // Number of cards per slide
+    breakpoints: {
+      1200: {
+        perPage: 3, // Adjust for smaller screens
+      },
+      768: {
+        perPage: 1, // Adjust for mobile screens
+      }
+    }
+  }).mount();
+});
+
+
+      </script>
+  </body>
+</html>

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>petfriendsgroup</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo - Copy.png"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@3.0.9/dist/css/splide.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img src="assets/img/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+      <!--? Header Start -->
+      <div class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-light px-1">
+          <a class="navbar-brand d-none d-lg-block p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <a class="navbar-brand d-lg-none p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <ul class="pt-1 row d-lg-none mobile-btn text-center d-sm-flex">
+            <div class="row">
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="location.html"
+                  class="nav-link header-btn"
+                  style="background-color: #b67b6d"
+                  >Branches</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="pettaxi.html"
+                  class="nav-link header-btn"
+                  style="background-color: #75b09a"
+                  >Pet Taxi</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="shop-soon.html"
+                  class="nav-link header-btn"
+                  style="background-color: #a71d17"
+                  >Pet Shop</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="Boarding&Training.html"
+                  class="nav-link header-btn"
+                  style="background-color: #282552"
+                  >Boarding & Training</a
+                >
+              </li>
+            </div>
+          </ul>
+          <button
+            class="navbar-toggler btn-sm p-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div
+              class="nav-holder ml-5 w-100 d-flex justify-content-between align-items-center"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="services.html"
+                      >All Services</a
+                    >
+                    <a class="dropdown-item nav-link" href="emergency-pet.html"
+                      >Emergency</a
+                    >
+                    <a class="dropdown-item nav-link" href="petdentalcare.html"
+                      >Dental</a
+                    >
+                    <a class="dropdown-item nav-link" href="grooming.html"
+                      >Grooming</a
+                    >
+                    <a class="dropdown-item nav-link" href="spay-newter.html"
+                      >Spay & Neuter</a
+                    >
+                    <a class="dropdown-item nav-link" href="ophthalmology.html"
+                      >Ophthalmology</a
+                    >
+                    <a
+                      class="dropdown-item nav-link"
+                      href="pet-vaccinations.html"
+                      >Vaccinations</a
+                    >
+                    <a class="dropdown-item nav-link" href="price.html"
+                      >Price</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown2"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >About US</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown2MenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="about.html"
+                      >About</a
+                    >
+                    <a class="dropdown-item nav-link" href="gallery.html"
+                      >Gallery</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="packages.html">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Our Team</a>
+                </li>
+              </ul>
+              <ul class="d-none d-lg-flex">
+                <li class="nav-item p-0">
+                  <a
+                    href="location.html"
+                    class="nav-link header-btn"
+                    style="background-color: #b67b6d"
+                    >Branches</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="pettaxi.html"
+                    class="nav-link header-btn"
+                    style="background-color: #75b09a"
+                    >Pet Taxi</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="shop-soon.html"
+                    class="nav-link header-btn"
+                    style="background-color: #a71d17"
+                    >Pet Shop</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="Boarding&Training.html"
+                    class="nav-link header-btn"
+                    style="background-color: #282552"
+                    >Boarding & Training</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header End -->
+    </header>
+    <main>
+      <div class="header mt-3">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Packages
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="packages">
+        <div class="container">
+          <div class="choose-pet">
+            <h1 class="text-center mt-5 mb-3">CHOOSE YOUR PET</h1>
+            <div class="pet">
+              <div class="cat active">
+                <svg
+                  width="35"
+                  height="45"
+                  viewBox="0 0 60 80"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M59.8814 59.54C59.8986 58.4119 59.8183 57.2843 59.6414 56.17C59.5114 55.3 59.0514 53.66 59.0514 53.66C58.3229 50.9222 57.1796 48.312 55.6614 45.92L55.3114 45.32C54.4254 43.9321 53.6752 42.462 53.0714 40.93C52.4436 39.3165 52.3386 37.5464 52.7714 35.87C52.989 35.2366 53.3781 34.6759 53.8954 34.2504C54.4127 33.8249 55.0379 33.5513 55.7015 33.46C55.8848 33.449 56.0637 33.3986 56.2259 33.3123C56.3881 33.2261 56.5298 33.1059 56.6414 32.96C56.7492 32.7772 56.8134 32.5721 56.829 32.3605C56.8446 32.1489 56.8112 31.9366 56.7314 31.74C56.4602 31.1006 56.0505 30.5294 55.5317 30.0677C55.0128 29.6059 54.3979 29.2651 53.7314 29.07C52.5559 28.6318 51.276 28.5558 50.0569 28.8517C48.8378 29.1476 47.7353 29.8018 46.8914 30.73C44.9614 33.07 42.4214 39.15 48.9714 48.11C54.5614 55.74 49.4914 69.43 48.3514 69.44C50.3514 61.68 50.9214 52.23 42.0214 40.86C40.8135 39.3825 39.4748 38.0169 38.0214 36.78C36.0214 35.02 33.9115 33.33 31.9515 31.51C29.8215 29.51 23.5214 25.85 21.8214 16.51C21.5156 14.3017 20.9308 12.1412 20.0813 10.08C19.615 8.98122 18.9696 7.96746 18.1714 7.07999C17.9393 6.39889 17.7489 5.70428 17.6014 5C16.8914 1.05 16.0414 0.33 15.6914 0C13.6914 0.92 12.5513 1.78999 10.8313 4.45999C10.2974 4.78978 9.71792 5.03911 9.11137 5.19998C8.17137 5.44998 7.21143 5.62998 6.30143 5.94998C4.9101 6.48897 3.74777 7.4923 3.01139 8.79001C2.79485 9.20394 2.65907 9.65529 2.61137 10.12C2.53313 10.6847 2.27752 11.21 1.88138 11.62C1.37138 12.1 0.881346 12.62 0.341346 13.07C0.228604 13.1562 0.138769 13.2687 0.0795048 13.3977C0.0202409 13.5267 -0.00661719 13.6682 0.00137982 13.81C0.0921581 15.229 0.739009 16.5549 1.80143 17.5C2.25971 17.8388 2.8116 18.0275 3.38138 18.04C4.17547 18.1436 4.9633 18.2905 5.74137 18.48C5.74137 18.48 10.6314 19.13 8.04142 24.21C5.64142 27.45 0.641346 34.21 3.84135 41.63C5.45074 45.5171 6.66041 49.5579 7.45145 53.69C7.45145 53.69 8.25145 60.43 8.45145 64.11C8.45145 64.11 8.45145 64.17 8.45145 64.19C8.63145 67.63 8.57145 70.65 7.95145 71.59C6.62145 73.59 5.34134 73.05 4.08134 73.37C2.82134 73.69 2.48145 74.03 2.32145 74.74C2.16145 75.45 2.47135 75.55 2.47135 75.55C2.47135 75.55 1.75137 76.74 2.37137 77.21C2.84949 77.5174 3.4031 77.6869 3.97135 77.7C3.97135 77.7 3.97134 78.59 6.46134 78.36C8.95134 78.13 10.3914 78.75 12.3614 73.56C13.4335 70.6566 14.7239 67.8386 16.2213 65.13C16.2213 65.13 17.9514 70.96 21.0214 72.61L24.0913 74.26C22.1226 74.0539 20.1328 74.2967 18.2714 74.97C17.6015 75.1787 17.0168 75.598 16.6043 76.1655C16.1917 76.733 15.9733 77.4185 15.9814 78.12C15.9814 78.12 15.6715 79.22 19.4515 79.22C20.7515 79.22 25.2514 79.22 29.2714 79.15C33.2914 79.08 36.5214 79.48 36.6914 78.39C36.6914 78.05 36.8314 77.86 36.9714 77.78C44.1914 81.86 57.4414 74.78 59.6014 62.78C59.8232 61.7249 59.9239 60.6479 59.9014 59.57"
+                  ></path>
+                </svg>
+              </div>
+              <div class="dog">
+                <svg
+                  width="50"
+                  height="65"
+                  viewBox="0 0 85 80"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.9599 54.4501C19.1099 47.9801 19.5199 38.4501 20.1699 39.1201C21.0899 39.9801 30.2699 40.6701 38.3199 42.6501C48.5699 45.1801 52.6399 43.3401 55.7799 40.8601L58.11 78.59C58.11 78.59 58.1099 79.22 59.1999 79.22H63.3099C63.3099 79.22 65.1 79.41 62.61 77.22C60.94 75.77 62.1 46.28 62.1 46.28C62.46 44.28 68.3499 39.4501 66.8899 24.8601C66.2399 18.4101 69.8899 11.3001 74.5899 12.4601C80.5899 13.9501 83.0599 12.78 83.0599 12.78C84.5699 12.21 84.4499 11.42 84.4499 11.42C84.4499 10.37 82.4499 9.17005 82.4499 9.17005C78.9599 6.70005 78.0199 5.46007 77.8999 4.85007C77.2799 1.77007 71.9599 1.16007 71.9599 1.16007C71.6299 0.640069 70.8099 -0.0399546 70.3799 -0.0199546C68.2799 -0.0199546 68.3799 3.05005 68.3799 3.05005C65.7199 4.68005 65.93 8.95007 60.85 14.5101C60.02 15.4201 57.0699 19.6901 42.3199 20.5101C39.3799 20.6701 35.7799 20.73 33.4199 20.85C-1.5801 22.14 5.6199 32.85 5.6699 38.85C5.6699 41.34 5.6699 43.9001 5.6699 46.0501C5.6699 46.0501 3.80997 54.9301 1.11997 58.0501C-0.44003 59.8801 -0.220137 61.24 0.259863 62.92C0.609863 64.14 1.11997 66.0001 1.11997 66.0001L5.75986 78.09C5.75986 78.09 5.84988 78.72 7.02988 78.72H9.86997C9.86997 78.72 11.7599 78.89 9.1699 76.72C7.4599 75.31 2.96997 63.8001 2.98997 60.2401"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>     
+        </div>
+        <div class="choose-package">
+          <h1 class="text-center mt-5 mb-3">CHOOSE YOUR PACKAGE</h1>
+          <div class="package-slider my-5">
+              <div class="splide">
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                      <li class="splide__slide">
+                        <div class="card-box">
+                          <div class="img-box">
+                            <img src="assets/img/package/calc-icon-1.svg" alt="">
+                          </div>
+                          <div class="box p-4 pt-0">
+                            <div class="content">
+                            <h3 class="mb-3">ANNUAL VACCINE</h3>
+                            <div class="py-5 mb-3"><img src="assets/img/package/calc-img-1.svg" alt="" class="d-block" style="width: 60%; height: auto;">
+                            </div>
+                            <ul class="list text-left">
+                            <li class="text p-0">Viral Vaccination </li>
+                            <li class="text p-0">Anti Rabies Vaccination</li>
+                            <li class="text p-0">Deworming</li>
+                            <li class="text p-0">Full Health Check Up </li>
+                            <li class="text p-0">Fungal Test</li>
+                            <li class="text p-0">Autoscopic Ear Scaning With Endoscope</li>
+                        </ul>
+                          </div>
+                        <div class="price p-0 mt-4">
+                          <h1>199 AED</h1>
+                          <a href="" class="btn mt-3">Book Now</a>
+                        </div>
+                       
+                        </div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <!-- Card content goes here -->
+                        <div class="card-box">
+                            <div class="img-box">
+                              <img src="assets/img/package/calc-icon-3.svg" alt="">
+                            </div>
+                            <div class="box p-4 pt-0">
+                              <div class="content">
+                              <h3 class="mb-3">Annual vaccination and grooming</h3>
+                              <div class="py-5 mb-3"><img src="assets/img/package/calc-img-1.svg" alt="" class="d-block" style="width: 60%; height: auto;">
+                              </div>
+                              <ul class="list text-left">
+                                <li class="text p-0">Health check up</li>
+                          <li class="text p-0">Nesthesia</li>
+                          <li class="text p-0">Surgery</li>
+                          <li class="text p-0">Post surgery medication</li>
+                          <li class="text p-0">Collar</li>
+                          <li class="text p-0">Shower</li>
+                          <li class="text p-0">Styling hair cut</li>
+                          <li class="text p-0">Ear cleaning</li>
+                          <li class="text p-0">Nail trimming </li>
+                          <li class="text p-0">Teeth brushing</li>
+                          <li class="text p-0">Follow up after 10 days</li>
+                          </ul>
+                            </div>
+                          <div class="price p-0 mt-4">
+                              <h1>1499 AED</h1>
+                            <a href="" class="btn mt-3">Book Now</a>
+                          </div>
+                          
+                          </div>
+                          </div>
+                        </li>
+                      <li class="splide__slide">
+                        <!-- Card content goes here -->
+                        
+                        <div class="card-box">
+                            <div class="img-box">
+                              <img src="assets/img/package/calc-icon-2.svg" alt="">
+                            </div>
+                            <div class="box p-4 pt-0">
+                              <div class="content">
+                              <h3 class="mb-3">Castration</h3>
+                              <div class="py-5 mb-3"><img src="assets/img/package/calc-img-2.svg" alt="" class="d-block" style="width: 60%; height: auto;">
+                              </div>
+                              <ul class="list text-left">
+                              <li class="text p-0">Health check up</li>
+                              <li class="text p-0">Nesthesia</li>
+                              <li class="text p-0">Surgery</li>
+                              <li class="text p-0">Post surgery medication</li>
+                              <li class="text p-0">Collar</li>
+                              <li class="text p-0">Follow up after 10 days</li>
+                          </ul>
+                            </div>
+                          <div class="price p-0 mt-4">
+                            <h1>409 AED</h1>
+                            <a href="" class="btn mt-3">Book Now</a>
+                          </div>
+                         
+                          </div>
+                          </div>
+                            
+                        </li>
+                        
+                        <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                                <div class="img-box">
+                                  <img src="assets/img/package/calc-icon-3.svg" alt="">
+                                </div>
+                                <div class="box p-4 pt-0">
+                                  <div class="content">
+                                  <h3 class="mb-3">Spaying</h3>
+                                  <div class="py-5 mb-3"><img src="assets/img/package/calc-img-3.svg" alt="" class="d-block" style="width: 60%; height: auto;">
+                                  </div>
+                                  <ul class="list text-left">
+                                    <li class="text p-0">Health check up</li>
+                                    <li class="text p-0">Nesthesia</li>
+                                    <li class="text p-0">Surgery</li>
+                                    <li class="text p-0">Post surgery medication</li>
+                                    <li class="text p-0">Collar</li>
+                                    <li class="text p-0">Follow up after 10 days</li>
+                              </ul>
+                                    </div>
+                              <div class="price p-0 mt-4">
+                                  <h1>1499 AED</h1>
+                                <a href="" class="btn mt-3">Book Now</a>
+                              </div>
+                              
+                              </div>
+                              </div>
+                            </li>
+                        
+                        <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                                <div class="img-box">
+                                  <img src="assets/img/package/calc-icon-3.svg" alt="">
+                                </div>
+                                <div class="box p-4 pt-0">
+                                  <div class="content">
+                                  <h3 class="mb-3">Grooming</h3>
+                                  <div class="py-5 mb-3"><img src="assets/img/package/calc-img-3.svg" alt="" class="d-block" style="width: 60%; height: auto;">
+                                  </div>
+                                  <ul class="list text-left">
+                                    <li class="text p-0">Health check up</li>
+                              <li class="text p-0">Lab test</li>
+                              <li class="text p-0">Liver enzymes function test</li>
+                              <li class="text p-0">Kidney function test</li>
+                              <li class="text p-0">Heart function test</li>
+                              <li class="text p-0">Viral tests </li>
+                              <li class="text p-0">PCR</li>
+                              <li class="text p-0">X- Ray</li>
+                              <li class="text p-0">CBC blood test</li>
+                              <li class="text p-0">Shower</li>
+                              <li class="text p-0">Styling hair cut</li>
+                              <li class="text p-0">Ear cleaning</li>
+                              <li class="text p-0">Nail trimming </li>
+                              <li class="text p-0">Teeth brushing</li>
+                              <li class="text p-0">Follow up after 10 days</li>
+                              </ul>
+                                  </div>
+                              <div class="price p-0 mt-4">
+                                  <h1>1499 AED</h1>
+                                <a href="" class="btn mt-3">Book Now</a>
+                              </div>
+                             
+                              </div>
+                              </div>
+                            </li>
+                            <li class="splide__slide">
+                                <!-- Card content goes here -->
+                                <div class="card-box">
+                                    <div class="img-box">
+                                      <img src="assets/img/package/calc-icon-1.svg" alt="">
+                                    </div>
+                                    <div class="box p-4 pt-0">
+                                      <div class="content">
+                                      <h3 class="mb-3">Dental</h3>
+                                      <div class="py-5 mb-3"><img src="assets/img/package/calc-img-4.svg" alt="" class="d-block" style="width: 60%; height: auto;">
+                                      </div>
+                                      <ul class="list text-left">
+                                      <li class="text p-0">Health check up </li>
+                                      <li class="text p-0">Anesthesia</li>
+                                      <li class="text p-0">Dental scaling and polish</li>
+                                      <li class="text p-0">Follow up after 10 days</li>
+                                  </ul>
+                                </div>
+                                  <div class="price p-0 mt-4">
+                                    <div class="row for-dog d-none mb-5">
+                                      <h6 class="d-block w-100">Pick Your Pups Pounds</h6>
+                                      <div class="toggle-group w-100">
+                                          <label class="toggle">
+                                            <span class="toggle-label">0-10 KG</span>
+                                            <div>
+                                              <input class="toggle-checkbox" type="checkbox" name="toggle-group" checked>
+                                              <div class="toggle-switch"></div>
+                                            </div>
+                                          </label>
+                                          <label class="toggle">
+                                            <span class="toggle-label">11-15 KG</span>
+                                            <div>
+                                              <input class="toggle-checkbox" type="checkbox" name="toggle-group">
+                                              <div class="toggle-switch"></div>
+                                            </div>
+                                          </label>
+                                          <label class="toggle">
+                                            <span class="toggle-label">16-24 KG</span>
+                                            <div>
+                                              <input class="toggle-checkbox" type="checkbox" name="toggle-group">
+                                              <div class="toggle-switch"></div>
+                                            </div>
+                                          </label>
+                                          <label class="toggle">
+                                            <span class="toggle-label">25-40 KG</span>
+                                            <div>
+                                              <input class="toggle-checkbox" type="checkbox" name="toggle-group">
+                                              <div class="toggle-switch"></div>
+                                            </div>
+                                          </label>
+                                        </div>
+                                    </div>
+                                      <h1>1350 AED</h1>
+                                      
+                                      <a href="" class="btn mt-3">Book Now</a>
+                                      </div>
+                                  </div>
+                                  </div>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container my-3 text-center">
+
+            <div class="vat">
+                <h3 class="text-center">VAT IS NOT INCLUDED</h3>
+            </div>
+            <button class="btn compair mt-5">Compair</button>
+        </div>
+      </div>
+      <div class="compair-table my-5 d-none">
+        <div class="container-2">
+            <div class="table-responsive">
+              <table class="table pt-5">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td class="column-2"><img src="assets/img/package/calc-icon-1.svg" alt="icon"></td>
+                        <td class="column-2"><img src="assets/img/package/calc-icon-1.svg" alt="icon"></td>
+                        <td class="column-2"><img src="assets/img/package/calc-icon-2.svg" alt="icon"></td>
+                        <td class="column-2"><img src="assets/img/package/calc-icon-2.svg" alt="icon"></td>
+                        <td class="column-2"><img src="assets/img/package/calc-icon-3.svg" alt="icon"></td>
+                      </tr>
+                  <tr>
+                    <th></th>
+                    <th class="column-1">THE ANNUAL VACCINE FELINE</th>
+                    <th class="column-1">THE ANNUAL VACCINE CANINE</th>
+                    <th class="column-1">THE NEWBIE FELINE</th>
+                    <th class="column-1">THE NEWBIE CANINE</th>
+                    <th class="column-1">THE VETERAN</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                      <td class="w-25">Consultation</td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Ear Check</td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Dental Check</td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Full Physical Exam</td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Fungal Woods lamp Test</td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Vacc Feline F3</td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Vacc Rabies</td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Vacc DHPPIL</td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Lab Fecal Test</td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Lab IDEXX CBC</td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">Lab IDEXX Chem 17 - GHP</td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">LAB Urine Strip Test & Sedimentation</td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="w-25">SDMA</td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-xmark"></i></td>
+                      <td class="text-center"><i class="fa-solid fa-check"></i></td>
+                    </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            <div class="book text-center">
+                <a href="tel:" class="btn my-5">Book Now</a>
+            </div>
+          </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Footer Start-->
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="single-footer-caption mb-30">
+                  <!-- logo -->
+                  <div class="footer-logo text-center mb-3">
+                    <a href="index.html"
+                      ><img
+                        src="assets/img/logo.png"
+                        style="width: 100px"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-tittle">
+                    <div class="footer-pera">
+                      <p>
+                        Welcome to the largest chain of veterinary clinics in
+                        the United Arab Emirates
+                      </p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="footer-social">
+                    <a href="https://www.instagram.com/pet_friends_vet_clinic" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                    <a href="https://www.instagram.com/aljaddaf_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alraha_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/al_khalidiya_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alfurjanvetclinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="team.html"> Our Team</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Services</h4>
+                  <ul>
+                    <li><a href="emergency-pet.html">Emergency</a></li>
+                    <li><a href="petdentalcare.html">Dental</a></li>
+                    <li><a href="grooming.html">Grooming</a></li>
+                    <li><a href="spay-newter.html">Spay & neuter</a></li>
+                    <li><a href="ophthalmology.html">Ophthalmology</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Get in Touch</h4>
+                  <ul>
+                    <li>
+                      <a href="tel:+971527394636"
+                        ><i class="fa-solid fa-mobile-screen-button"></i>
+                        +971527394636</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:pfrindsvet@gmail.com"
+                        ><i class="fa-solid fa-paper-plane"></i>
+                        pfrindsvet@gmail.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-solid fa-location-dot"></i> Sobha Daffodil
+                        - Circle - Jumeirah Village - Dubai - United Arab
+                        Emirates</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="footer-border">
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-12">
+                <div class="footer-copy-right text-center">
+                  <p>
+                    Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved |
+                    <a href="index.html" target="_blank">Pets Friends</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top">
+      <a title="Go to Top" href="#"> <i class="fa-solid fa-paw"></i></a>
+    </div>
+
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+    <script>
+      
+        function togglePet(event) {
+  const cat = document.querySelector('.pet .cat');
+  const dog = document.querySelector('.pet .dog');
+
+  if (event.target === cat || event.target.parentNode === cat) {
+    cat.classList.add('active');
+    dog.classList.remove('active');
+  } else if (event.target === dog || event.target.parentNode === dog) {
+    dog.classList.add('active');
+    cat.classList.remove('active');
+  }
+}
+
+// Add event listener to cat and dog sections
+const cat = document.querySelector('.pet .cat');
+const dog = document.querySelector('.pet .dog');
+
+cat.addEventListener('click', togglePet);
+dog.addEventListener('click', togglePet);
+
+dog.addEventListener('click', ()=>{
+    document.querySelector('.for-dog').classList.remove('d-none');
+});
+cat.addEventListener('click', ()=>{
+    document.querySelector('.for-dog').classList.add('d-none');
+});
+
+let compairBtn = document.querySelector('.compair');
+compairBtn.addEventListener('click', ()=>{
+    compairBtn.classList.add('d-none');
+    document.querySelector('.compair-table').classList.remove('d-none');
+})
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  new Splide('.splide', {
+    // type: "loop",
+          drag: "free",
+          autoplay: true,
+          autoScroll: {
+            speed: 1,
+          },
+    perPage: 4, // Number of cards per slide
+    breakpoints: {
+      991: {
+        perPage: 3, // Adjust for smaller screens
+      },
+      796: {
+        perPage: 2, // Adjust for mobile screens
+      },
+      576: {
+        perPage: 1, // Adjust for mobile screens
+      }
+    }
+  }).mount();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+      var accordionButtons = document.querySelectorAll(".accordion-button");
+      accordionButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          var chevronDown = button.querySelector(".fa-chevron-down");
+          var chevronUp = button.querySelector(".fa-chevron-up");
+          chevronDown.classList.toggle("d-none");
+          chevronUp.classList.toggle("d-none");
+        });
+      });
+    });
+
+      // Get all toggle checkboxes
+      const checkboxes = document.querySelectorAll('.toggle-checkbox');
+
+// Add event listener to each checkbox
+checkboxes.forEach(checkbox => {
+  checkbox.addEventListener('change', function() {
+    // Uncheck all checkboxes
+    checkboxes.forEach(cb => {
+      if (cb !== checkbox) {
+        cb.checked = false;
+      }
+    });
+  });
+});
+
+</script>
+
+  </body>
+</html>

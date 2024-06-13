@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>petfriendsgroup</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo - Copy.png"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@3.0.9/dist/css/splide.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img src="assets/img/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+      <!--? Header Start -->
+      <div class="header-area">
+        <nav class="navbar navbar-expand-lg navbar-light px-1">
+          <a class="navbar-brand d-none d-lg-block p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <a class="navbar-brand d-lg-none p-0" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo" />
+          </a>
+          <ul class="pt-1 row d-lg-none mobile-btn text-center d-sm-flex">
+            <div class="row">
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="location.html"
+                  class="nav-link header-btn"
+                  style="background-color: #b67b6d"
+                  >Branches</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="pettaxi.html"
+                  class="nav-link header-btn"
+                  style="background-color: #75b09a"
+                  >Pet Taxi</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="shop-soon.html"
+                  class="nav-link header-btn"
+                  style="background-color: #a71d17"
+                  >Pet Shop</a
+                >
+              </li>
+              <li class="nav-item btn22 p-0 col-6">
+                <a
+                  href="Boarding&Training.html"
+                  class="nav-link header-btn"
+                  style="background-color: #282552"
+                  >Boarding & Training</a
+                >
+              </li>
+            </div>
+          </ul>
+          <button
+            class="navbar-toggler btn-sm p-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div
+              class="nav-holder ml-5 w-100 d-flex justify-content-between align-items-center"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Services</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="services.html"
+                      >All Services</a
+                    >
+                    <a class="dropdown-item nav-link" href="emergency-pet.html"
+                      >Emergency</a
+                    >
+                    <a class="dropdown-item nav-link" href="petdentalcare.html"
+                      >Dental</a
+                    >
+                    <a class="dropdown-item nav-link" href="grooming.html"
+                      >Grooming</a
+                    >
+                    <a class="dropdown-item nav-link" href="spay-newter.html"
+                      >Spay & Neuter</a
+                    >
+                    <a class="dropdown-item nav-link" href="ophthalmology.html"
+                      >Ophthalmology</a
+                    >
+                    <a
+                      class="dropdown-item nav-link"
+                      href="pet-vaccinations.html"
+                      >Vaccinations</a
+                    >
+                    <a class="dropdown-item nav-link" href="price.html"
+                      >Price</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdown2"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >About US</a
+                  >
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown2MenuLink"
+                  >
+                    <a class="dropdown-item nav-link" href="about.html"
+                      >About</a
+                    >
+                    <a class="dropdown-item nav-link" href="gallery.html"
+                      >Gallery</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="packages.html">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Our Team</a>
+                </li>
+              </ul>
+              <ul class="d-none d-lg-flex">
+                <li class="nav-item p-0">
+                  <a
+                    href="location.html"
+                    class="nav-link header-btn"
+                    style="background-color: #b67b6d"
+                    >Branches</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="pettaxi.html"
+                    class="nav-link header-btn"
+                    style="background-color: #75b09a"
+                    >Pet Taxi</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="shop-soon.html"
+                    class="nav-link header-btn"
+                    style="background-color: #a71d17"
+                    >Pet Shop</a
+                  >
+                </li>
+                <li class="nav-item p-0">
+                  <a
+                    href="Boarding&Training.html"
+                    class="nav-link header-btn"
+                    style="background-color: #282552"
+                    >Boarding & Training</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header End -->
+    </header>
+    <main>
+      <div class="header mt-3">
+        <div class="container p-0">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="location.html">All Locations</a></li>
+                <li class="breadcrumb-item active" aria-current="page">AL FURJAN</li>
+              </ol>
+            </nav>
+          </div>
+      </div>
+<div class="petclinic">
+    <div class="container">
+        <div class="pagetitle mb-5">
+            <div class="container">
+              <h1>Al Furjan Vet Clinic</h1>
+            </div>
+          </div>
+          <div class="img-holder">
+            <img src="assets/img/clinics/Alfurgan.jpg" alt="">
+          </div>
+          <div class="address text-center mt-5">
+            <div class="row">
+                <div class="col col-12">
+                    <p><i class="fa-solid fa-location-dot"></i> Jebel Ali Village - Al Furjan - Dubai - United Arab Emirates</p>
+                </div>
+                <div class="col col-12">
+                    <a class="mx-3" href="mailto:alfurjanvetclinic@gmail.com"><i class="fa-solid fa-paper-plane"></i> alfurjanvetclinic@gmail.com</a>
+                    <a class="mx-3" href="tel:+971527394636"><i class="fa-solid fa-mobile-screen-button"></i> +971527394636</a>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col col-12 col-md-6 col-lg-6">
+                    <a href="tel:+971527394636" target="_blank" class="btn-1 btn-4">Book Now</a>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-6">
+                    <a href="https://maps.app.goo.gl/tebnDzp4C3TJmgEa8" class="btn-3 btn-4">Direction</a>
+                </div>
+            </div>
+          </div>
+         <div class="clinic-content">
+            <div class="title">
+                <h4>ABOUT THE CLINIC</h4>
+            </div>
+            <p class="mt-5">A Thriving And Burgeoning Skyscraper District In Dubai, Jumeirah Lake Towers, Or JLT, Is Home To Several Wellness Centers, Residents, And A Pet-Friendly Park.</p>
+            <p>Living in a swanky, happening part of town could not have gotten better, especially since we have a branch of our premium pet care practice located in the area.</p>
+            <p>Conveniently situated in JLT, our branch is committed to go by our organization’s mission of providing exceptional and compassionate veterinary care to the furry residents of this vibrant community. As the leading pet care hospital in the UAE, we aim to make our services more accessible to a larger number of people and their pets. Our team of professionals comprising experienced veterinarians and other pet health workers are devoted to the cause of advancing the path of veterinary care in the UAE.</p>
+            <p>We look forward to being your ultimate partner in pet healthcare. You can reach us at 800-82 or drop by our branch at Fortune Tower, Cluster C, Jumeirah Lake Towers, Dubai.</p>
+            <p>For more information or to schedule your next appointment, please contact the Modern Vet front desk by calling 800-82 or you can use the WhatsApp button on our website. We are open 24 hours, every day of the week!</p>
+            <p>Our Modern Vet JLT is located near Fortune Tower, Lake level, Al Sarayat St, Cluster C, Jumeirah Lake Towers in just a few minutes of walking distance from Palm Jumeirah, and you can drive here within 9 minutes of driving distance via Shiekh Zayed rd interchange no five toward Al Sarayat st.</p>
+            <div class="title mt-5">
+                <h4>MEET THE TEAM</h4>
+            </div>
+                  <!-- Our Team Start -->
+                  <div class="splide team-work py-5">
+                    <div class="splide__track">
+                      <div class="container">
+                        <div class="section-title text-center mb-5">
+                          <h2>MEET THE TEAM</h2>
+                        </div>
+                      </div>
+                      <ul class="splide__list">
+                        <li class="splide__slide col-lg-4 col-md-6">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/7.1.png">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Ragab Elhofy</h3>
+                                  <div>
+                                    Owner and manager
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide col-lg-4 col-md-6">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/8 - Copy.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Sara</h3>
+                                  <div>
+                                    Internal medicine specialist
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide col-lg-4 col-md-6">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/3.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Manar</h3>
+                                  <div>
+                                    Soft Tissue Surgeon
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    
+                        </li>
+                        <li class="splide__slide ">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/4 - Copy.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Fawaz</h3>
+                                  <div>
+                                    Soft Tissue Surgeon
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/5 - Copy.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Mohamed</h3>
+                                  <div>
+                                    Diagnostic imaging
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/6.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Abd elaziz</h3>
+                                  <div>
+                                    orthopaedic surgeon
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/10.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Fathi</h3>
+                                  <div>
+                                    Soft Tissue Surgeon
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/1.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Samer</h3>
+                                  <div>
+                                    Internal medicine specialist
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/11.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Mohamed</h3>
+                                  <div>
+                                    Dermatology specialist
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/12.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Ahmed</h3>
+                                  <div>
+                                    Dermatology specialist
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="box">
+                            <div class="a-box">
+                                <div class="img-container">
+                                  <div class="img-inner">
+                                    <div class="inner-skew">
+                                      <img src="assets/img/team/13.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="text-container">
+                                  <h3>DR Nour</h3>
+                                  <div>
+                                    Ophthalmology specialist
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                <!-- Our Team End -->
+                <section class="services-slider my-5 pb-5">
+                  <div class="section-title py-5 text-center">
+                    <h2>OTHER SERVICES</h2>
+                  </div>
+                  <div class="splide2">
+                      <div class="splide__track">
+                        <ul class="splide__list">
+                          <li class="splide__slide">
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/25.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="pet-relocation.html">Pet Relocation</a></h3>
+                                <p class="text">
+                                  Pet Friends, in partnership with Blue Sky Pet Relocation, proudly offers a comprehensive and personalized pet travel service tailored to the unique needs of each pet. Our collaborative approach combines Pet Friends’s veterinary expertise with Blue Sky’s relocation proficiency, ensuring a seamless transition for your beloved pet, whether you’re moving into or out of the UAE.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            
+                              <div class="card-box">
+                                <div class="img-box">
+                                  <img src="assets/img/services/10.svg" alt="">
+                                </div>
+                                <div class="box">
+                                  <h3><a href="wellness-exam.html">WELLNESS EXAMS</a></h3>
+                                  <p class="text">
+                                    We provide a complete evaluation of all organ functions during your pet’s visit to Pet Friends. We examine for the following conditions:
+                                  </p>
+                                </div>
+                              </div>
+                          
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/6.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="pet-vaccinations.html">PET VACCINATIONS</a></h3>
+                                <p class="text">
+                                  A pet needs all the affection and attention you can provide. Health care is a significant component of their daily routine.
+                                  Vaccinating them promptly is vital to prevent numerous diseases and preserve their quality of life. You may vaccinate your pet in multiple locations, but it is not just about immunization. However, your pet requires love, attention, and a stress-free environment.
+                                  </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/3.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="emergency-pet.html">EMERGENCY PET CARE</a></h3>
+                                <p class="text">
+                                  Like emergency hospitals for people, Pet Friends provides 24 hour emergency pet care, any day of the year, even on holidays. If you think to yourself that your pet seems off and needs to see an emergency vet in Dubai for even the smallest health problem, we are here for you. If you sense that your pet is feeling even the slightest discomfort, we will be happy to have a look. Many vets aren’t open 24 hours, but we are here for you any time of the day all year round. 
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/18.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="spay-newter.html">SPAY & NEUTER</a></h3>
+                                <p class="text">
+                                  Your Reliable Partner In Caring For Your Pet’s Health At Pet Friends, we understand the importance of your pet’s health and wellbeing. Our clinic is proud to offer specialized spay and neuter services, tailored to provide the best care for your beloved pets. With a focus on safety, comfort, and recovery, our experienced veterinary team employs the latest techniques and compassionate care. By choosing Pet Friends for your pet’s spay and neuter needs, you’re ensuring a healthier, happier life for your furry family members. Trust us to be your partner in responsible pet ownership.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/15.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="ophthalmology.html">OPHTHALMOLOGY</a></h3>
+                                <p class="text">
+                                  At Pet Friends, we are proud to offer advanced ophthalmology services, dedicated to the eye health of your pets. Our state-of-the-art clinic is equipped with the latest technology and staffed by expert veterinarians specialized in pet eye care. From routine eye exams to complex surgeries, we provide comprehensive solutions for a range of eye conditions. Our approach combines cutting-edge techniques with compassionate care, ensuring the best possible outcomes for your pet’s vision. Trust Pet Friends to safeguard the eye health of your beloved animals, ensuring they enjoy a life full of clear and healthy vision.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/26.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="soft-tissue.html">SOFT TISSUE & ORTHOPEDICS</a></h3>
+                                <p class="text">
+                                  Veterinary orthopaedics focuses on the treatment of musculoskeletal problems in pets. Joints, soft tissue, bones, muscle, ligaments, and tendons are all treated in our clinic. Orthopaedic disorders can be inherited or developed as a result of trauma, infections, or immune system problems. We provide a full variety of services at Modern Veterinary Hospital, from screening and diagnosis to medical treatment and rehabilitation. Our veterinary practice provides comprehensive orthopedics for dogs and cats, addressing a wide range of bone and joint conditions in your beloved pets.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/11.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="petdentalcare.html">PET DENTAL CARE</a></h3>
+                                <p class="text">
+                                  DENTAL CARE FOR PETS If you have a pet, it’s essential to know that they can have dental problems. Your dog or cat may need a checkup from their veterinarian if they develop pain in the mouth or difficulty chewing or swallowing. Some signs of poor dental care include bad breath, gum disease, and tooth loss. Dental care for dogs and cats at home is essential to keep your pet happy and healthy.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/5.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="physiotherapy.html">PHYSIOTHERAPY</a></h3>
+                                <p class="text">
+                                  We at Pet Friends Hospital provide veterinary physiotherapy and rehabilitation services that are created to help your pet recover as quickly as possible while averting injury. Whether your pet suffers from a traumatic injury, soft tissue/joint pain and/or conditions, neurological issues or needs pre/post-operative care, there are multiple treatment options available to ensure a full recovery.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/14.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="grooming.html">GROOMING</a></h3>
+                                <p class="text">
+                                  Our pets are our life partners, and we want them to be happy and healthy. We know you don’t have the time to spend on your pet. That’s why we offer a convenient service that allows you to take care of their needs without having to go through the hassle of finding a new groomer or going for a walk. We’ll spend time getting to know your dog and cat and establishing a bond with them. We’ll discuss their likes, dislikes, favorite activities, and anything else you want to know about your furry friends.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/1.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="holisticmedicine.html">HOLISTIC MEDICINE</a></h3>
+                                <p class="text">
+                                  Ten thousand years ago when humans first began domesticating animals, they fell sick in detention and also due to the ailments of old age. In order to heal them, animals were treated using natural herbs. Until quite recently, herbal medicine had been in practice to treat everything from gut disorders to itchy skin and ear infections.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/13.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="fooddelivery.html">FOOD DELIVERY</a></h3>
+                                <p class="text">
+                                  FOOD DELIVERY Feeding your pets high quality food gives them a chance at a longer and healthier life. Like humans, pets also require essential vitamins, minerals, and nutrients. Poor nutrition can have serious effects like obesity, allergies, fur loss, and emaciation. Unbalanced diets, especially during your pets’ growing phase, can result in detrimental health consequences. Indicators for poor nutrition you should look out for include bad breath, hair loss, dull coat, body odor, unusual bowel movements, and dandruff. At the Pet Friends we understand that cats and dogs are more than just pets, they are family. That is why we are devoted to supplying even the most discerning pet owners with a wide assortment of curated pet food, including organic and veterinary prescription diets. We also stock environmentally-friendly toys, training tools, treats, and grooming products. We carefully monitor pet food recalls and supply only the highest-grade goods. You can be certain, if it’s Pet Friends approved, it’s safe!
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/21.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="pettaxi.html">PET TAXI</a></h3>
+                                <p class="text">
+                                  In Dubai, our unique Pet Taxi service is tailored exclusively for our furry friends, ensuring they travel directly from and to our clinics with ease and comfort. Unlike typical taxis for humans, our vehicles are crafted specifically for pet transport, prioritizing their safety and well-being.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/12.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="dermatology.html">DERMATOLOGY</a></h3>
+                                <p class="text">
+                                  Skin-related issues are not limited to human beings and can plague animals too. Much like their owners, pets should also have regular visits to the dermatologist. Like us, pets can suffer from skin rashes, allergies, infections and other related issues, which can be aggravated by the hot climatic conditions. Since animals spend most of their time walking and lying down on the ground, their skin is more prone to contracting infections and to being aggravated. Skin conditions in pets should not be taken lightly because of the possibility of the disease being transmissible to you. Pet health can be beneficial to the overall health of your household. Our veterinary dermatologists are highly trained in treating skin, hair, and ear conditions in pets.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/9.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="petwelfare.html">PET WELFARE</a></h3>
+                                <p class="text">
+                                  The Pet Friends Hospital is the leading pet charity in Dubai, working closely with many animal welfare organizations to provide price concessions for TNR. Our goal is to ensure the health of cats and dogs in order to prevent them from accumulating on the streets with a large brood of neglected puppies and kittens.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/2.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="cardiology.html">CARDIOLOGY</a></h3>
+                                <p class="text">
+                                  Pet Friends Clinic is renowned as the only cardiology-focused veterinary hospital in your region. When searching for a ‘veterinary cardiologist near me’, our facility stands out with its team of expert vet cardiologists. Specializing in pet cardiology, our veterinary cardiologists, proficient in both cat and dog cardiology, are committed to continual learning and applying the latest advancements in cardiology veterinary practice. They expertly handle a spectrum of heart conditions, ensuring your pets receive top-tier care in this specialized field.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/20.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="dogspaying.html">DOG SPAYING & NEUTERING</a></h3>
+                                <p class="text">
+                                  At Pet Friends, we’re committed to enhancing the wellbeing of your canine companions through our specialized dog spay and neuter services. Understanding the profound impact these procedures can have on a dog’s life, we employ advanced techniques and compassionate care to ensure a safe and comfortable experience. Our experienced veterinary team is dedicated to providing top-tier care, reducing the risk of health issues, and promoting a more balanced behavior in dogs. Trust Pet Friends for your dog’s spay and neuter needs, and join us in our mission to foster healthier, happier lives for pets in our community.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/19.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="catspay.html">CAT SPAY AND NEUTER</a></h3>
+                                <p class="text">
+                                  At Pet Friends, we specialize in providing top-notch cat spaying and neutering services, ensuring the best care for your feline companions. Recognizing the importance of these procedures for cat health and population control, we are dedicated to offering the most compassionate and effective solutions. Our expert team of vets is highly skilled in spaying cats, focusing on safety, comfort, and quick recovery. By choosing Pet Friends for spaying or neutering your cat, you not only contribute to their well-being but also support responsible pet ownership. Trust our experienced vets to provide the care and attention your cats deserve, making a positive impact on their overall health and happiness.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/23.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="dogvaccinations.html">DOG VACCINATIONS</a></h3>
+                                <p class="text">
+                                  Vaccination is the process of immunization, which enhances an animal’s immune system and helps it fight diseases. Vaccines are made from killed or weakened forms of bacteria, viruses and other microorganisms that cause disease in dogs.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/22.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="catvaccinations.html">CAT VACCINATIONS</a></h3>
+                                <p class="text">
+                                  You must know the pros and cons of vaccinating your cat if you’re a pet owner. While some cats can be healthy without vaccination, others may not survive without protection from diseases such as feline leukemia and feline immunodeficiency virus (FIV).
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/8.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="vetfordog.html">VET FOR DOG</a></h3>
+                                <p class="text">
+                                  The Pet Friends Clinic is a full-service animal hospital that provides comprehensive veterinary care for dogs in Dubai. From preventative treatment and surgery to breeding consultations and nutritional guidance, we can satisfy your dog’s healthcare needs under one roof.
+                                  The Pet Friends clinic has everything your dog needs to live a happy and healthy life. We want to be there for you every step of the way, from puppy vaccines, grooming, and emergency care to senior dog care. We offer best dog veterinary and dental care, including emergency care, orthopedic surgery, and in-house diagnostics. Our state-of-the-art facilities include digital X-ray capability and a comprehensive surgical suite for spaying, neutering, and other operations.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <!-- Card content goes here -->
+                            <div class="card-box">
+                              <div class="img-box">
+                                <img src="assets/img/services/7.svg" alt="">
+                              </div>
+                              <div class="box">
+                                <h3><a href="vetforcat.html">VET FOR CAT</a></h3>
+                                <p class="text">
+                                  At Pet Friends, we solely provide veterinarian care, boarding, and grooming for cats. Pet Friends clinics are committed to delivering superior care for cats and their owners. Our skilled, caring veterinarian care staff has a lot of expertise and experience to address our feline patients’ special demands and health problems. We want to make every cat’s visit as tranquil and comfortable as possible.
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                          <!-- Add more slides as needed -->
+                        </ul>
+                      </div>
+                    </div>
+                    
+                </section>
+                  </div> 
+                  </div>
+        <br>
+        <div class="banner-2 py-5">
+           <h1>YOUR TRUSTED VET</h1>
+           <!-- <p class="since p-3">SINCE 1995</p> -->
+         </div>
+         <section class="bookbanner py-3">
+          <div class="container">
+            <div class="holder p-3 text-center">
+              <img src="assets/img/logo1.png" alt="" />
+              <h1 class="thin my-5">THE BIGGEST CHAIN OF</h1>
+              <h1 class="thin my-5"> 24/7 </h1>
+              <h1 class="thin my-5">VET CLINICS IN UAE</h1>
+              <button type="submit" class="btn mt-5">BOOK NOW</button>
+            </div>
+          </div>
+        </section>
+          <div class="container">
+            <div class="title2 mb-5">
+                <h4>GET TO KNOW OUR BRANCH</h4>
+            </div>
+            <video width="100%" height="600px" controls>
+                <source src="assets/img/videos/petfriends.mp4" type="video/mp4">
+                <source src="assets/img/videos/petfriends.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+              <div class="title my-5">
+                <h4>OUR GALLERY</h4>
+            </div>
+
+            <div class="splide" id="image-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="assets/img/clinics/furjan/1.jpg" alt="Image 1"></li>
+                        <li class="splide__slide"><img src="assets/img/clinics/furjan/2.jpg" alt="Image 2"></li>
+                        <li class="splide__slide"><img src="assets/img/clinics/furjan/3.jpg" alt="Image 3"></li>
+                        <li class="splide__slide"><img src="assets/img/clinics/furjan/4.jpeg" alt="Image 4"></li>
+                        <li class="splide__slide"><img src="assets/img/clinics/furjan/5.jpeg" alt="Image 5"></li>
+                        <li class="splide__slide"><img src="assets/img/clinics/furjan/6.jpeg" alt="Image 6"></li>
+                        <li class="splide__slide"><img src="assets/img/clinics/furjan/7.jpeg" alt="Image 7"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="title2 my-5">
+                <h4>LOCATION ON THE MAP</h4>
+            </div>
+            <div class="mapholder mb-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.3512380528095!2d55.1392544!3d25.0221516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d3a792a0c67%3A0x2322bff4ac487ad4!2sAl%20furjan%20vet%20clinic!5e0!3m2!1sar!2seg!4v1716381152618!5m2!1sar!2seg" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+</div>
+    </main>
+
+    <footer>
+      <!-- Footer Start-->
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+              <div class="single-footer-caption mb-50">
+                <div class="single-footer-caption mb-30">
+                  <!-- logo -->
+                  <div class="footer-logo text-center mb-3">
+                    <a href="index.html"
+                      ><img
+                        src="assets/img/logo.png"
+                        style="width: 100px"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div class="footer-tittle">
+                    <div class="footer-pera">
+                      <p>
+                        Welcome to the largest chain of veterinary clinics in
+                        the United Arab Emirates
+                      </p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="footer-social">
+                    <a href="https://www.instagram.com/pet_friends_vet_clinic" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                    <a href="https://www.instagram.com/aljaddaf_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alraha_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/al_khalidiya_vet_clinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/alfurjanvetclinic/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="team.html"> Our Team</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Services</h4>
+                  <ul>
+                    <li><a href="emergency-pet.html">Emergency</a></li>
+                    <li><a href="petdentalcare.html">Dental</a></li>
+                    <li><a href="grooming.html">Grooming</a></li>
+                    <li><a href="spay-newter.html">Spay & neuter</a></li>
+                    <li><a href="ophthalmology.html">Ophthalmology</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Get in Touch</h4>
+                  <ul>
+                    <li>
+                      <a href="tel:+971527394636"
+                        ><i class="fa-solid fa-mobile-screen-button"></i>
+                        +971527394636</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:pfrindsvet@gmail.com"
+                        ><i class="fa-solid fa-paper-plane"></i>
+                        pfrindsvet@gmail.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-solid fa-location-dot"></i> Sobha Daffodil
+                        - Circle - Jumeirah Village - Dubai - United Arab
+                        Emirates</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="footer-border">
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-12">
+                <div class="footer-copy-right text-center">
+                  <p>
+                    Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved |
+                    <a href="index.html" target="_blank">Pets Friends</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top">
+      <a title="Go to Top" href="#"> <i class="fa-solid fa-paw"></i></a>
+    </div>
+
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/@splidejs/splide@3.0.9/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        new Splide(".splide", {
+          type: "loop",
+          drag: "free",
+          perPage: 3, // Show 3 slides on large screens
+      breakpoints: {
+        992: {
+          perPage: 2, // Show 2 slides on medium screens
+        },
+        776: {
+          perPage: 1, // Show 1 slide on small screens
+        }
+      },
+          autoplay: true,
+          autoScroll: {
+            speed: 1,
+          },
+        }).mount();
+
+        new Splide(".splide2", {
+          type: "loop",
+          drag: "free",
+          autoplay: true,
+          autoScroll: {
+            speed: 1,
+          },
+          perPage: 4, // Number of cards per slide
+    breakpoints: {
+      1200: {
+        perPage: 3, // Adjust for smaller screens
+      },
+      768: {
+        perPage: 1, // Adjust for mobile screens
+      }
+    }
+  }).mount();
+
+        new Splide('#image-slider', {
+                type   : 'loop',
+                drag: "free",
+          autoplay: true,
+          autoScroll: {
+            speed: 1,
+          },
+                perPage: 6,
+                perMove: 1,
+                breakpoints: {
+                    1024: {
+                        perPage: 5,
+                    },
+                    768: {
+                        perPage: 4,
+                    },
+                    640: {
+                        perPage: 3,
+                    },
+                    480: {
+                        perPage: 2,
+                    },
+                },
+            }).mount();
+    });
+    </script>
+  </body>
+</html>
